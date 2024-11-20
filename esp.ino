@@ -7,8 +7,8 @@
 
 
 // вписываем здесь SSID и пароль для вашей WiFi-сети: 
-const char* ssid = "Kiski_muriski";
-const char* password = "eY7m76S_rP";
+const char* ssid = "";
+const char* password = "";
 
 
 const uint8_t DHTPin = D7;
