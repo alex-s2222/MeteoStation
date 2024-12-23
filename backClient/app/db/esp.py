@@ -28,7 +28,7 @@ async def get_date_date(beg_date: datetime, end_date: datetime):
         result = await conn.execute(stm)
         esp_data = result.scalars().all()
 
-    result = [data.__dict__ for data in esp_data]
+    result = [data.to_dict() for data in esp_data]
     return result
 
 

@@ -14,3 +14,10 @@ class EspData(Base):
     date: Mapped[datetime] = mapped_column(insert_default=func.now(), nullable=False)
     temp: Mapped[Float] = mapped_column(Float, nullable=False)
     hum: Mapped[Float] = mapped_column(Float, nullable=False)
+
+    def to_dict(self):
+        return {
+            'temp': self.temp,
+            'hum': self.hum,
+            'date': self.date.strftime('%d-%m-%Y')
+        }
