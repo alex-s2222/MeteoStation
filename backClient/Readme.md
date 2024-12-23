@@ -5,7 +5,7 @@
 ## EndPoints
 
 1. Последняя температура и влажность
-2. Данные в формате json по заданному промежутку времени
+2. Данные в формате json по заданному промежутку времени (для графиков)
 3. Файл в заданном промежутке времени в формате
     3.1. json
     3.2. csv
@@ -18,7 +18,8 @@
 3. pandantic
 4. sqlAlchemy
 5. swagger
-6. Docker, docker-compose
+6. uvicorn
+7. Docker, docker-compose
 
 ## Docker
 
