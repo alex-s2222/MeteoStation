@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
-from pydantic import BaseModel
 
 from app.service.esp import set_data_from_esp, get_ten_data
 from app.schemas.esp import SensorData
@@ -8,7 +7,6 @@ from app.schemas.esp import SensorData
 
 
 def create_app():
-
     app = FastAPI(
         title='MeteoStation'
     )

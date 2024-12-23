@@ -1,4 +1,4 @@
-from sqlalchemy import insert, select
+from sqlalchemy import select
 from sqlalchemy.exc import SQLAlchemyError
 
 from app.db.database import async_session
