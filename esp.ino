@@ -11,8 +11,8 @@
 // вписываем здесь SSID и пароль для вашей WiFi-сети:
 // const char* ssid = "Kiski_muriski";
 // const char* password = "eY7m76S_rP";
-const char* ssid = "iPhone (Alexey)";
-const char* password = "12346789";
+const char* ssid = "";
+const char* password = "";
 
 const char* serverName = "http://172.20.10.9:8000/";
 WiFiClient wifiClient;
